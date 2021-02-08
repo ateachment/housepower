@@ -1,0 +1,1 @@
+const POWER_URL = "vzlogger httpd json data url or middleware url";
