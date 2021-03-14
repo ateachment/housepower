@@ -10,17 +10,25 @@
 
 </head>
 <body>
-<div id="preview" id="power">
-  	<canvas width=380 height=200 id="canvas-preview"></canvas>
-  	<div id="preview-textfield">{{power}}</div>
-</div>
+  <div id="power">
+    <div id="preview">
+        <canvas width=380 height=200 id="canvas-preview"></canvas>
+        <div id="preview-textfield">Strom: {{power}} Watt</div>
+    </div>
+    <div id="preview2">
+      <canvas width=380 height=200 id="canvas-preview2"></canvas>
+      <div id="preview-textfield2">Gas: {{power2}} m<sup>3</sup>/h</div>
+    </div>
+  </div>
 
 <script src="js/vue.js"></script> 
 <script src="js/vue-ressource.js"></script> 
 <script src="js/gauge.min.js"></script>
+<script src="js/vue-cookies.js"></script>
 
 <script src="js/settings.js"></script> 
 <script src="js/power.js"></script>
+
 
 </body>
 </html>

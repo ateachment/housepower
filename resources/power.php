@@ -1,5 +1,5 @@
 <?php
-$url = 'http://localhost:8081';
+$url = 'https://h.eick-at.de/housepower/PowerServlet';
   $contents = file_get_contents($url);
   
   //If $contents is not a boolean FALSE value.
